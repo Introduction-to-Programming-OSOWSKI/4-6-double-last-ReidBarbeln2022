@@ -1,6 +1,6 @@
 def doubleLast(j):
     
-    j.append (len(j))
+    j.append (j[len(j) - 1])
 
     return j
 
